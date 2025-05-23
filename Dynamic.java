@@ -8,8 +8,11 @@ public class Dynamic {
         arr.add("tanu");
         arr.add(0, "ishu");
         arr.set(1, "isha");
+        // System.out.println(arr);
+        // System.out.println(arr.get(1));
+        arr.clear();
+        // arr.remove(1);
         System.out.println(arr);
-        System.out.println(arr.get(1));
     }
 
 }
