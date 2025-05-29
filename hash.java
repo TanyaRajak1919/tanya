@@ -1,3 +1,5 @@
+
+// print repeating character
 import java.util.HashMap;
 
 public class hash {
