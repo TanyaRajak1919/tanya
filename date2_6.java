@@ -26,7 +26,7 @@ class date2_6 {
 
     public static void main(String[] args) {
         ArrayList<Student> list = new ArrayList<>();
-        list.add(new Student(17, "mini"));
+        list.add(new Student(19, "tannu"));
         list.add(new Student(16, "laksh"));
         list.add(new Student(11, "isha"));
         list.add(new Student(51, "tanya"));
