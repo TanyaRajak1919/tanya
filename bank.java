@@ -13,3 +13,4 @@ public class bank {
         System.out.println("hello");
     }
 }
+// synchronize matalb ke baad ke thread ka run hona
