@@ -19,7 +19,7 @@ class Account {
     public void Deposit(double amount) {
         if (amount > 0)
             balance = amount;
-        transactions.add(new Transaction("Depposit ", amount));
+        transactions.add(new Transaction("Deposit ", amount));
         System.out.println("Deposited sucessfully! ");
     }
 }
@@ -106,5 +106,3 @@ static class Bankapp {
               System.out.println("Invalid choice.");
             }
 }while(choice!=5);
-
-}}
