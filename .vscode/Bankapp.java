@@ -41,7 +41,7 @@ class Transaction {
     public void withdraw(double amount) {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
-            transactions.add(new Transaction("Withdrawal", amount));
+            transaction.add(new Transactions("Withdrawal", amount));
             System.out.println("Withdrawn successfully!");
         } else {
             System.out.println("Insufficient balance or invalid amount.");
@@ -50,11 +50,11 @@ class Transaction {
     }
 
     public void viewTransactions() {
-        if (transactions.isEmpty()) {
+        if (transaction.isEmpty()) {
             System.out.println("No transaction yet.");
 
         } else {
-            for (Transaction t : transactions)
+            for (Transactions t : transaction)
                 ;
             {
                 System.out.println(t);
