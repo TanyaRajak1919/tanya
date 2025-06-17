@@ -10,9 +10,7 @@ class B {
     }
 
     class c extends A,B{
-    public Static
-
-        void main(String[] args) {
+    public Static void main(String[] args) {
 
         }
     }
